@@ -1,0 +1,1 @@
+"""Shared NetWatch core package."""

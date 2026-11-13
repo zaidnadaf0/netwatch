@@ -1,0 +1,58 @@
+# Root .gitignore for NetWatch
+# Secrets & config
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.vite/
+*.log
+npm-debug.log*
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+*.tfvars.json
+
+# Generated / Temporary
+*.tmp
+*.temp
+cache/
+tmp/
